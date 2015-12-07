@@ -8,8 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>ICLASOFT</groupId>
-  <artifactId>IntroducirProductos</artifactId>
-  <name>IntroducirProductos</name>
+  <artifactId>IntroducirClientes</artifactId>
+  <name>IntroducirClientes</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,6 +25,11 @@
 	  <groupId>org.apache.derby</groupId>
 	  <artifactId>derby</artifactId>
 	  <version>10.12.1.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>ICLASOFT</groupId>
+    	<artifactId>IntroducirProductos</artifactId>
+    	<version>1.0.0</version>
     </dependency>
   </dependencies>
   <version>1.0.0</version>

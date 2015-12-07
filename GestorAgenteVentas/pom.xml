@@ -32,5 +32,6 @@
   </dependencies>
   <modules>
   	<module>IntroducirProductos</module>
+  	<module>IntroducirClientes</module>
   </modules>
 </project>
