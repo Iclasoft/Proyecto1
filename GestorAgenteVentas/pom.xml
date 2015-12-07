@@ -30,4 +30,7 @@
     </dependency>
     
   </dependencies>
+  <modules>
+  	<module>IntroducirProductos</module>
+  </modules>
 </project>
