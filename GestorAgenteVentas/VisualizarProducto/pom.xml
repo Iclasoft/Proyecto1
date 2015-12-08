@@ -9,7 +9,7 @@
   </parent>
   <groupId>ICLASOFT</groupId>
   <artifactId>VisualizarProducto</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <name>VisualizarProducto</name>
   <url>http://maven.apache.org</url>
   <properties>

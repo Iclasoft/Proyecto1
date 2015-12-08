@@ -171,4 +171,8 @@ public class pnlVisualizarProducto extends JPanel {
 			}
 		}
 	}
+	
+	public JList getListaProductos(){
+		return list;
+	}
 }
