@@ -33,5 +33,6 @@
   <modules>
   	<module>IntroducirProductos</module>
   	<module>IntroducirClientes</module>
+  	<module>VisualizarProducto</module>
   </modules>
 </project>
