@@ -67,6 +67,7 @@ public class pnlVisualizarProducto extends JPanel {
 		}
 		{
 			txtIdProducto = new JTextField();
+			txtIdProducto.setEnabled(false);
 			GridBagConstraints gbc_txtIdProducto = new GridBagConstraints();
 			gbc_txtIdProducto.anchor = GridBagConstraints.SOUTH;
 			gbc_txtIdProducto.insets = new Insets(0, 0, 5, 0);
@@ -171,6 +172,29 @@ public class pnlVisualizarProducto extends JPanel {
 			}
 		}
 	}
+	public void enableText(boolean enabled){
+		txtIdProducto.setEnabled(false);
+		textNombre.setEnabled(enabled);
+		txtDescripcion.setEnabled(enabled);
+		txtPrecio.setEnabled(enabled);
+		textField.setEnabled(false);
+	}
+	public String getTxtId(){
+		return txtIdProducto.getText();
+	}
+	public String getTxtNombre(){
+		return textNombre.getText();
+	}
+	public String getTxtDescripcion(){
+		return txtDescripcion.getText();
+	}
+	public String getTxtPrecio(){
+		return txtPrecio.getText();
+	}
+	public String getTxtField(){
+		return textField.getText();
+	}
+	
 	
 	public JList getListaProductos(){
 		return list;
