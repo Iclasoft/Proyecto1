@@ -34,6 +34,6 @@
   	<module>IntroducirProductos</module>
   	<module>IntroducirClientes</module>
   	<module>VisualizarProducto</module>
-  	<module>../RealizarPedidos</module>
+  	<module>RealizarPedidos</module>
   </modules>
 </project>
