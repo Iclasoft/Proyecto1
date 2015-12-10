@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Dec 10 15:26:23 CET 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0151-8c49-2749-000005d93428 
+on database directory /home/xiul/git/Proyecto1/GestorAgenteVentas/Integracion/.datos with class loader sun.misc.Launcher$AppClassLoader@4e0e2f2a 
+Loaded from file:/home/xiul/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b17
+user.dir=/home/xiul/git/Proyecto1/GestorAgenteVentas/Integracion
+os.name=Linux
+os.arch=amd64
+os.version=3.19.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
