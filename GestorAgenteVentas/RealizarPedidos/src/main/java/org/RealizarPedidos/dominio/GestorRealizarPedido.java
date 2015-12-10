@@ -39,8 +39,8 @@ public class GestorRealizarPedido {
 		Pedido pe=new Pedido(0,c,false,l);
 		GestorXml gestorXml=GestorXml.getGestorXml();
 	    String emailsource=gestorXml.leer("emailsource");
-	    String emaildestino=gestorXml.leer("emailsource");
-	    String password=gestorXml.leer("emailsource");
+	    String emaildestino=gestorXml.leer("emaildestino");
+	    String password=gestorXml.leer("password");
 	    
 		Properties props = System.getProperties();
 	        props.put("mail.smtps.host","smtp.gmail.com");
