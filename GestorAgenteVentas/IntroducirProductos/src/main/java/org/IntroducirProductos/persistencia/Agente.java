@@ -60,7 +60,7 @@ public class Agente {
 			pstm.execute();
 			pstm.close();
 			
-			pstm=conn.prepareStatement("CREATE TABLE PEDIDO(IDPEDIDO INTEGER"
+			pstm=conn.prepareStatement("CREATE TABLE PEDIDOPRODUCTO(IDPEDIDO INTEGER"
 									+ ", IDPRODUCTO INTEGER"
 									+ ", CANTIDAD INTEGER NOT NULL"
 									+ ", PRIMARY KEY(IDPEDIDO, IDPRODUCTO)"
