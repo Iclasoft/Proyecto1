@@ -16,6 +16,7 @@ import javax.mail.internet.MimeMessage;
 
 import org.IntroducirProductos.dominio.GestorAgente;
 import org.IntroducirProductos.persistencia.Agente;
+import org.RealizarPedidos.persistencia.GestorXml;
 import org.VisualizarProducto.dominio.Producto;
 import org.jdom.Document;
 import org.jdom.Element;
@@ -36,13 +37,10 @@ public class GestorRealizarPedido {
 		}
 		gestor.disconect();
 		Pedido pe=new Pedido(0,c,false,l);
-		SAXBuilder builder = new SAXBuilder();
-	    File xmlFile = new File( "AgenteVentas.config" );
-	    Document document = (Document) builder.build( xmlFile );
-	    Element e=document.getRootElement();
-	    String emailsource=e.getAttributeValue("emailsource");
-	    String emaildestino=e.getAttributeValue("emaildestino");
-	    String password=e.getAttributeValue("password");
+		GestorXml gestorXml=GestorXml.getGestorXml();
+	    String emailsource=gestorXml.leer("emailsource");
+	    String emaildestino=gestorXml.leer("emailsource");
+	    String password=gestorXml.leer("emailsource");
 	    
 		Properties props = System.getProperties();
 	        props.put("mail.smtps.host","smtp.gmail.com");
