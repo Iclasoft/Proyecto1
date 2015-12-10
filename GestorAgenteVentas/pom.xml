@@ -4,7 +4,6 @@
 
   <groupId>ICLASOFT</groupId>
   <artifactId>GestorAgenteVentas</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>GestorAgenteVentas</name>
@@ -39,5 +38,7 @@
   	<module>BorrarProductos</module>
   	<module>VisualizarPedidos</module>
   	<module>Configuracion</module>
+  	<module>Integracion</module>
   </modules>
+  <version>1.0.0</version>
 </project>
