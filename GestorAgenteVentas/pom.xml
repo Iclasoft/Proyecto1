@@ -37,5 +37,7 @@
   	<module>RealizarPedidos</module>
   	<module>ModificarProductos</module>
   	<module>BorrarProductos</module>
+  	<module>VisualizarPedidos</module>
+  	<module>Configuracion</module>
   </modules>
 </project>
